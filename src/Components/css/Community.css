@@ -1,0 +1,20 @@
+.card {
+  width: 18rem;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.card-sub-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-main h4 {
+  margin-top: 20px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.card-img-top {
+  height: 200px;
+}

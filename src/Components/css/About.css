@@ -1,0 +1,32 @@
+.imagebox {
+  margin-top: 1px;
+  margin-left: 110px;
+}
+
+.paradiv {
+  width: 1000px;
+  height: 600px;
+  margin-left: 110px;
+  margin-top: 18px;
+  margin-bottom: 50px;
+  font-size: 23px;
+  /* text-align: left; */
+}
+
+.headlinediv {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.imgSize {
+  width: 1000px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.caption {
+  font-family: monospace;
+}
