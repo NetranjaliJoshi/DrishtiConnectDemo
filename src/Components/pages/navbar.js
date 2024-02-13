@@ -48,30 +48,6 @@ const navbar = () => {
                 </Link>
               </li>
 
-              {/* <li className="nav-item dropdown">
-                <Link
-                  className="nav-link active dropdown-toggle"
-                  to="/volunteer"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Volunteer
-                </Link>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link className="dropdown-item" to="/volunteerRegister">
-                      Register
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/volunterLogin">
-                      Login in
-                    </Link>
-                  </li>
-                </ul>
-              </li> */}
-
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link active dropdown-toggle"
@@ -94,25 +70,6 @@ const navbar = () => {
                   </li>
                 </ul>
               </li>
-
-              {/* <li class="nav-item">
-                <Link
-                  to="/volunteerRegister"
-                  className="nav-link active"
-                  aria-current="page"
-                >
-                  Register
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link
-                  to="/volunterLogin"
-                  className="nav-link active"
-                  aria-current="page"
-                >
-                  Login in
-                </Link>
-              </li> */}
 
               <li className="nav-item">
                 <Link
