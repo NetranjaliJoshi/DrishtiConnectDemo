@@ -15,7 +15,7 @@ const navbar = () => {
                 padding: "0.5rem 0",
               }}
             >
-              Drishti
+              DrishtiVision
             </span>
             <span
               style={{
