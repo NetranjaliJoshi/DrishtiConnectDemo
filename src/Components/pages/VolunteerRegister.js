@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/VolunteerRegister.css";
 const VolunteerRegister = () => {
+  const initialValues = {
+    fullName: "",
+    email: "",
+    password: "",
+    city: "",
+    state: "",
+    zip: "",
+  };
+
+  const [formValue, setFormValue] = useState(initialValues);
+  const handleChaange = (e) => {
+    const { name, value } = e.target;
+    setFormValue({ ...formValue, [name]: value });
+    console.log(formValue);
+  };
   return (
     <div className="main-register">
       <form className="myform">
@@ -10,9 +25,11 @@ const VolunteerRegister = () => {
           </label>
           <input
             type="text"
+            name="fullName"
             class="form-control"
             placeholder="Enter Your Name"
             required
+            id="Full_Name"
           />
         </div>
         <div class="form-group col-md-12">
@@ -22,6 +39,7 @@ const VolunteerRegister = () => {
           <input
             type="email"
             class="form-control"
+            name="email"
             id="inputEmail4"
             placeholder="Email"
             required
@@ -33,6 +51,7 @@ const VolunteerRegister = () => {
           </label>
           <input
             type="password"
+            name="password"
             class="form-control"
             id="inputPassword4"
             placeholder="Password"
@@ -47,6 +66,7 @@ const VolunteerRegister = () => {
             type="text"
             class="form-control"
             id="inputAddress"
+            name="address"
             placeholder="1234 Main Station.."
             required
           />
@@ -57,6 +77,7 @@ const VolunteerRegister = () => {
           </label>
           <input
             type="text"
+            name="city"
             class="form-control"
             id="inputCity"
             placeholder="City"
@@ -69,6 +90,7 @@ const VolunteerRegister = () => {
           </label>
           <input
             type="text"
+            name="state"
             class="form-control"
             id="inputState"
             placeholder="State"
@@ -81,6 +103,7 @@ const VolunteerRegister = () => {
           </label>
           <input
             type="text"
+            name="zip"
             class="form-control"
             id="inputZip"
             placeholder="Zip"

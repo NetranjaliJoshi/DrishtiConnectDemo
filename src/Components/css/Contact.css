@@ -74,7 +74,7 @@ button:hover {
 
 .contact-info {
   text-align: left;
-  margin-left: 100px;
+  margin-left: auto;
 }
 
 .contact-info h3 {
@@ -100,6 +100,9 @@ button:hover {
   .contact-wrapper {
     grid-template-columns: 1fr;
   }
+  /* .contact-info{
+
+  } */
 }
 
 .mail-container {
