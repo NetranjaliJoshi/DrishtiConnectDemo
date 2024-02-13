@@ -20,7 +20,7 @@ const MyRoutingComp = () => {
             {" "}
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="community" element={<Community />}></Route>
-            <Route path="/volunteer" element={<Volunter />}></Route>
+            {/* <Route path="/volunteer" element={<Volunter />}></Route> */}
             <Route
               path="volunteerRegister"
               element={<VolunteerRegister />}

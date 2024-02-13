@@ -51,7 +51,6 @@ const navbar = () => {
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link active dropdown-toggle"
-                  to="/volunteer"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -66,32 +65,13 @@ const navbar = () => {
                   </li>
                   <li>
                     <Link className="dropdown-item" to="/volunterLogin">
-                      Login in
+                      Login
                     </Link>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item">
-                <Link
-                  to="/volunteerRegister"
-                  className="nav-link active"
-                  aria-current="page"
-                >
-                  Register
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link
-                  to="/volunterLogin"
-                  className="nav-link active"
-                  aria-current="page"
-                >
-                  Login in
-                </Link>
-              </li>
-
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
                   to="/community"
                   className="nav-link active"
@@ -100,7 +80,7 @@ const navbar = () => {
                   Community
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
                   to="/aboutus"
                   className="nav-link active"
@@ -110,7 +90,7 @@ const navbar = () => {
                 </Link>
               </li>
 
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
                   to="/contactus"
                   className="nav-link active"
