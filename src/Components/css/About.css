@@ -10,9 +10,7 @@
   margin-top: 18px;
   margin-bottom: 50px;
   font-size: 23px;
-  /* text-align: left; */
 }
-
 .headlinediv {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -20,13 +18,31 @@
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 .imgSize {
   width: 1000px;
   height: 500px;
   border-radius: 10px;
 }
-
 .caption {
   font-family: monospace;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .imagebox {
+    width: 100%;
+  }
+
+  .imgSize {
+    width: 100%;
+    height: auto;
+  }
+
+  .caption {
+    font-size: 18px;
+  }
+
+  .paradiv {
+    padding: 20px;
+  }
 }

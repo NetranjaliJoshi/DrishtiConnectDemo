@@ -10,11 +10,11 @@ const Community = () => {
       <div className="card-main">
         <h4>NGO's Availabe To Help Blind People </h4>
         <div className="card-sub-main">
-          <div class="card">
-            <img class="card-img-top" src={mitrajyoti} alt="Cardimagecap" />
-            <div class="card-body">
-              <h5 class="card-title">Mitra Jyoti</h5>
-              <p class="card-text">
+          <div className="card">
+            <img className="card-img-top" src={mitrajyoti} alt="Cardimagecap" />
+            <div className="card-body">
+              <h5 className="card-title">Mitra Jyoti</h5>
+              <p className="card-text">
                 Madhu Singhal and her non-profit Mitra Jyoti have been
                 empowering visually impaired individuals with various programmes
                 and material for over 26 years now.Mitra Jyoti’s famous ‘talking
@@ -26,11 +26,11 @@ const Community = () => {
               </a>
             </div>
           </div>
-          <div class="card">
-            <img class="card-img-top" src={nabet} alt="Cardimagecap" />
-            <div class="card-body">
-              <h5 class="card-title">Nabet</h5>
-              <p class="card-text">
+          <div className="card">
+            <img className="card-img-top" src={nabet} alt="Cardimagecap" />
+            <div className="card-body">
+              <h5 className="card-title">Nabet</h5>
+              <p className="card-text">
                 National Association for the Blind (Employment & Training) also
                 known as Nabet is working towards providing job opportunities
                 for the visually impaired with the help of a unique employment
@@ -38,18 +38,18 @@ const Community = () => {
               </p>
               <a
                 href="https://yourstory.com/2017/10/nabet-visually-challenged-employment"
-                class="btn btn-primary"
+                className="btn btn-primary nabet"
               >
                 Read more
               </a>
             </div>
           </div>
 
-          <div class="card">
-            <img class="card-img-top" src={stud} alt="Cardimagecap" />
-            <div class="card-body">
-              <h5 class="card-title">Access for ALL</h5>
-              <p class="card-text">
+          <div className="card">
+            <img className="card-img-top" src={stud} alt="Cardimagecap" />
+            <div className="card-body">
+              <h5 className="card-title">Access for ALL</h5>
+              <p className="card-text">
                 Siddhant Shah created tactile surfaces and textures for visually
                 impaired visitors, and published India and Pakistan’s first
                 museum Braille publication with large fonts and tactile imagery
@@ -64,11 +64,11 @@ const Community = () => {
             </div>
           </div>
 
-          <div class="card">
-            <img class="card-img-top" src={ujjala} alt="Cardimagecap" />
-            <div class="card-body">
-              <h5 class="card-title">Ujjala</h5>
-              <p class="card-text">
+          <div className="card">
+            <img className="card-img-top" src={ujjala} alt="Cardimagecap" />
+            <div className="card-body">
+              <h5 className="card-title">Ujjala</h5>
+              <p className="card-text">
                 Ujjala is a Delhi based NGO helping visually impaired boys
                 studying at Delhi University and in NCR. It provides facilities
                 and nurturing environment to help students achieve their dreams

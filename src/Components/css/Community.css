@@ -1,6 +1,6 @@
 .card {
-  width: 18rem;
-  margin: 10px;
+  /* width: 18rem;
+  margin: 10px; */
   border-radius: 5px;
 }
 
@@ -17,4 +17,24 @@
 
 .card-img-top {
   height: 200px;
+}
+
+.card a {
+  margin-top: 10px;
+}
+
+.nabet {
+  margin-top: 10px;
+}
+.card {
+  width: 30%;
+  margin: 20px;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 576px) {
+  .card {
+    width: 100%; /* Make each card take full width */
+    margin: 10px 0; /* Adjust margin for better spacing */
+  }
 }

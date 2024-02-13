@@ -1,5 +1,6 @@
 import "./App.css";
 import MyRoutingComp from "./Components/MyRoutingComp";
+import Navbar from "./Components/pages/navbar";
 
 function App() {
   return (

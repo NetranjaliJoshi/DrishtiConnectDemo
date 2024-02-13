@@ -1,7 +1,7 @@
 .main {
   display: flex;
   height: 100vh;
-  background-image: url(../images/img1.jpg);
+  background-image: url(../images/img10.jpg);
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
   background-size: cover;
 }

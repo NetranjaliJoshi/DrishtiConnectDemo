@@ -11,7 +11,7 @@ function Home() {
         <div className="content">
           <h1>Let's see the world together</h1>
           <h4>
-            TrackBuddy connects people needing sighted support with volunteers
+            DrishtiConnect helps people needing sighted support with volunteers
             through live video call.
           </h4>
 
