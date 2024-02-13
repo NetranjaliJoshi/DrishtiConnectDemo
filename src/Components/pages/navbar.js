@@ -48,7 +48,7 @@ const navbar = () => {
                 </Link>
               </li>
 
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link active dropdown-toggle"
                   to="/volunteer"
@@ -70,9 +70,32 @@ const navbar = () => {
                     </Link>
                   </li>
                 </ul>
+              </li> */}
+
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link active dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Volunteer
+                </Link>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link className="dropdown-item" to="/volunteerRegister">
+                      Register
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="/volunterLogin">
+                      Login
+                    </Link>
+                  </li>
+                </ul>
               </li>
 
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <Link
                   to="/volunteerRegister"
                   className="nav-link active"
@@ -89,9 +112,9 @@ const navbar = () => {
                 >
                   Login in
                 </Link>
-              </li>
+              </li> */}
 
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
                   to="/community"
                   className="nav-link active"
@@ -100,7 +123,7 @@ const navbar = () => {
                   Community
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
                   to="/aboutus"
                   className="nav-link active"
@@ -110,7 +133,7 @@ const navbar = () => {
                 </Link>
               </li>
 
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link
                   to="/contactus"
                   className="nav-link active"
