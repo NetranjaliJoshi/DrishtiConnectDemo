@@ -1,43 +1,54 @@
 import React from "react";
 import "../css/Contact.css";
+import { Link } from "react-router-dom";
 
 export const Contact = () => {
   return (
     <div>
-      <div class="contact">
-        <div class="container">
+      <div className="contact">
+        <div className="container">
           <h2>Contact Us</h2>
-          <div class="contact-wrapper">
-            <div class="contact-form">
-              <h3>Send us a message</h3>
+          <div className="contact-wrapper">
+            <div className="contact-form">
+              <h3>Send us a message </h3>
               <form>
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     type="text"
                     name="name"
                     placeholder="Your Name"
                   ></input>
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     type="email"
                     name="email"
                     placeholder="Your Email"
                   ></input>
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <textarea name="message" placeholder="Your Message" />
                 </div>
-                <button type="submit">Send Message</button>
+                <Link to="feedback">
+                  <button type="button" class="btn btn-success">
+                    Send Message
+                  </button>
+                </Link>
               </form>
             </div>
-            <div class="contact-info">
+
+            <div className="contact-info">
               <h3>Connect with us:</h3>
               <p>
-                Email: <a href="shivansh@gmail.com">shivansh@gmail.com</a>
+                Email:{" "}
+                <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S84059283%3A1707847734369375&theme=glif">
+                  shivansh@gmail.com
+                </a>
               </p>
               <p class="mail-container">
-                <a href="rhutuja@gmail.com">rhutuja@gmail.com</a>
+                <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S84059283%3A1707847734369375&theme=glif">
+                  rhutuja@gmail.com
+                </a>
               </p>
               <p>Phone : +91 9075575845</p>
             </div>
