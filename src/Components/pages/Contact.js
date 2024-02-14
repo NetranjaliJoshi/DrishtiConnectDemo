@@ -30,7 +30,7 @@ export const Contact = () => {
                   <textarea name="message" placeholder="Your Message" />
                 </div>
                 <Link to="feedback">
-                  <button type="button" class="btn btn-success">
+                  <button type="button" class="btn btn-primary">
                     Send Message
                   </button>
                 </Link>
