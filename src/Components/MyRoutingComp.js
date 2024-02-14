@@ -9,6 +9,7 @@ import Volunter from "./pages/Volunter";
 import VolunteerRegister from "./pages/VolunteerRegister";
 import VolunteerLogin from "./pages/VolunteerLogin";
 import Footer from "./pages/Footer";
+import Feedback from "./pages/Feedback";
 
 const MyRoutingComp = () => {
   return (
@@ -28,6 +29,7 @@ const MyRoutingComp = () => {
             <Route path="volunterLogin" element={<VolunteerLogin />}></Route>
             <Route path="aboutus" element={<About />}></Route>
             <Route path="contactus" element={<Contact />}></Route>
+            <Route path="contactus/feedback" element={<Feedback />}></Route>
           </Routes>
         </div>
       </BrowserRouter>

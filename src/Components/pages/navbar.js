@@ -16,12 +16,11 @@ const Navbar = () => {
               style={{
                 color: "white",
                 fontWeight: 700,
-
                 letterSpacing: "2px",
                 padding: "0.5rem 0",
               }}
             >
-              DrishtiVision
+              Drishti
             </span>
             <span
               style={{
@@ -61,7 +60,7 @@ const Navbar = () => {
                 >
                   Volunteer
                 </Link>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu ">
                   <li>
                     <Link className="dropdown-item" to="/volunteerRegister">
                       Register
@@ -75,7 +74,7 @@ const Navbar = () => {
                 </ul>
               </li>
 
-              <li className="nav-item">
+              <li class="nav-item">
                 <Link
                   to="/community"
                   className="nav-link active"
