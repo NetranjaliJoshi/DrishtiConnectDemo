@@ -2,7 +2,7 @@ import React from "react";
 import About from "./pages/About";
 import { Contact } from "./pages/Contact";
 import Home from "./pages/Home";
-import Navbar from "./pages/navbar";
+import Navbar from "./pages/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Community from "./pages/Community";
 import Volunter from "./pages/Volunter";
