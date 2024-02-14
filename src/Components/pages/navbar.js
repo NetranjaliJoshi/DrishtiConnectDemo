@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "../css/navbar.css";
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -44,7 +45,7 @@ const Navbar = () => {
           <div
             className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}
           >
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 marginChange">
               <li className="nav-item">
                 <Link to="/" className="nav-link active" aria-current="page">
                   Home

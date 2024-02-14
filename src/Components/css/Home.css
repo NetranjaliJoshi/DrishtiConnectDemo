@@ -6,6 +6,9 @@
   background-size: cover;
 }
 
+.marginChange {
+  margin-left: 40px;
+}
 .content {
   display: flex;
   flex-direction: column;
