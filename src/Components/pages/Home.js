@@ -20,6 +20,12 @@ function Home() {
               Call us
             </button>
           </Link>
+
+          <Link to="/volunterLogin">
+            <button type="button" class="btn btn-primary">
+              I'd like to volunteer
+            </button>
+          </Link>
         </div>
       </section>
     </>

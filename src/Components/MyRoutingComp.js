@@ -10,8 +10,16 @@ import VolunteerRegister from "./pages/VolunteerRegister";
 import VolunteerLogin from "./pages/VolunteerLogin";
 import Footer from "./pages/Footer";
 import Feedback from "./pages/Feedback";
+import Certificate from "./pages/Certificate";
+import { useState } from "react";
+import VolunteerProfile from "./pages/VolunteerProfile";
 
 const MyRoutingComp = () => {
+  const [formValue, setFormValue] = useState("");
+
+  const handleFormSubmit = (value) => {
+    setFormValue(value); // Set the value received from the form
+  };
   return (
     <div>
       <BrowserRouter>
@@ -24,12 +32,20 @@ const MyRoutingComp = () => {
             {/* <Route path="/volunteer" element={<Volunter />}></Route> */}
             <Route
               path="volunteerRegister"
-              element={<VolunteerRegister />}
+              element={<VolunteerRegister onRegister={handleFormSubmit} />}
             ></Route>
             <Route path="volunterLogin" element={<VolunteerLogin />}></Route>
             <Route path="aboutus" element={<About />}></Route>
             <Route path="contactus" element={<Contact />}></Route>
             <Route path="contactus/feedback" element={<Feedback />}></Route>
+            <Route
+              path="certificate"
+              element={<Certificate value={formValue} />}
+            ></Route>
+            <Route
+              path="/volunteerProfile"
+              element={<VolunteerProfile></VolunteerProfile>}
+            ></Route>
           </Routes>
         </div>
       </BrowserRouter>
